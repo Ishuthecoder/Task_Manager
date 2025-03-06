@@ -88,6 +88,8 @@ This project is open-source under the MIT License. Feel free to modify and use i
 👤 Author
 
 👩‍💻 Ishika Dubey
+
 🔗 GitHub: https://github.com/Ishuthecoder
+
 🔗 LinkedIn: https://www.linkedin.com/in/ishika-dubey-27491a257/
 
