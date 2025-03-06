@@ -1,67 +1,66 @@
-📋 PerformX Task Manager
+# **📋 PerformX Task Manager**
 
-A task management system built with Streamlit and Firebase Cloud Messaging (FCM) to manage tasks, send notifications, and track deadlines efficiently.
+A **task management system** built with **Streamlit** and **Firebase Cloud Messaging (FCM)** to manage tasks, send notifications, and track deadlines efficiently.
 
-🚀 Features
+---
 
-✅ Add, Edit, and Delete Tasks
+## **🚀 Features**
 
-✅ Assign Due Dates & Priorities
+✅ **Add, Edit, and Delete Tasks**  
+✅ **Assign Due Dates & Priorities**  
+✅ **Generate & Store Firebase Cloud Messaging (FCM) Tokens**  
+✅ **Send Notifications for Upcoming & Overdue Tasks**  
+✅ **Save Task Data in Session State**  
+✅ **User-Friendly Interface with Streamlit**  
 
-✅ Generate & Store Firebase Cloud Messaging (FCM) Tokens
+---
 
-✅ Send Notifications for Upcoming & Overdue Tasks
+## **🛠 Installation Guide**
 
-✅ Save Task Data in Session State
-
-✅ User-Friendly Interface with Streamlit
-
-🛠 Installation Guide
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/Ishuthecoder/performx-task-manager.git
-
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/your-username/performx-task-manager.git
 cd performx-task-manager
+```
 
-2️⃣ Install Dependencies
-
+### **2️⃣ Install Dependencies**
 Ensure Python is installed, then run:
-
+```sh
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Streamlit App
-
+### **3️⃣ Run the Streamlit App**
+```sh
 streamlit run app/main.py
+```
 
-🔥 Firebase Setup
+---
 
-1️⃣ Set Up Firebase Cloud Messaging (FCM)
-Go to Firebase Console
+## **🔥 Firebase Setup**
 
-Create a new project and enable Cloud Messaging
+### **1️⃣ Set Up Firebase Cloud Messaging (FCM)**
+- Go to [Firebase Console](https://console.firebase.google.com/)
+- Create a new project and enable **Cloud Messaging**
+- Download your **Admin SDK JSON file** and place it in the `firebase/` directory
 
-Download your Admin SDK JSON file and place it in the firebase/ directory
-
-2️⃣ Configure Firebase in Your App
-
-Open firebase/firebase-config.js
-
-Replace with your Firebase project details:
-
+### **2️⃣ Configure Firebase in Your App**
+- Open `firebase/firebase-config.js`
+- Replace with your Firebase project details:
+```javascript
 const firebaseConfig = {
-
     apiKey: "YOUR_API_KEY",
     authDomain: "YOUR_PROJECT.firebaseapp.com",
     projectId: "YOUR_PROJECT_ID",
     storageBucket: "YOUR_PROJECT.appspot.com",
     messagingSenderId: "YOUR_SENDER_ID",
     appId: "YOUR_APP_ID"
-    
 };
+```
 
-📌 Project Structure
+---
 
+## **📌 Project Structure**
+```
 📂 performx-task-manager/
 │── 📂 firebase/  
 │   ├── firebase-config.js  # Firebase Web SDK Config  
@@ -72,25 +71,29 @@ const firebaseConfig = {
 │── requirements.txt        # Python Dependencies  
 │── README.md               # Project Documentation  
 │── Procfile                # (Optional) For Deployment  
+```
+
+---
+
+## **🔔 Sending Notifications**
+
+- The system will send automatic **push notifications** using **FCM** for:  
+  ✅ **Tasks due tomorrow**  
+  ✅ **Overdue tasks**  
+
+---
+
+## **📝 License**
+
+This project is **open-source** under the **MIT License**. Feel free to modify and use it!  
+
+---
+
+## **👤 Author**
+
+👩‍💻 **Ishika Dubey**  
+👉 GitHub: [Ishuthecoder]((https://github.com/Ishuthecoder))  
+👉 LinkedIn: ((https://www.linkedin.com/in/ishika-dubey-27491a257/))  
 
 
-🔔 Sending Notifications
-
-The system will send automatic push notifications using FCM for:
-
-✅ Tasks due tomorrow
-
-✅ Overdue tasks
-
-📝 License
-
-This project is open-source under the MIT License. Feel free to modify and use it!
-
-👤 Author
-
-👩‍💻 Ishika Dubey
-
-🔗 GitHub: https://github.com/Ishuthecoder
-
-🔗 LinkedIn: https://www.linkedin.com/in/ishika-dubey-27491a257/
 
