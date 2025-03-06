@@ -61,7 +61,6 @@ const firebaseConfig = {
 };
 
 📌 Project Structure
-{
 
 📂 performx-task-manager/
 │── 📂 firebase/  
@@ -74,7 +73,6 @@ const firebaseConfig = {
 │── README.md               # Project Documentation  
 │── Procfile                # (Optional) For Deployment  
 
-}
 
 🔔 Sending Notifications
 
